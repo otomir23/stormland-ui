@@ -1,6 +1,6 @@
 {
   "name": "@otomir23/stormland-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components for projects made by StormLand - private minecraft SMP",
   "repository": "git://github.com/otomir23/stormland-ui.git",
   "main": "dist/cjs/index.js",
