@@ -2,7 +2,7 @@
   "name": "@otomir23/stormland-ui",
   "version": "1.0.0",
   "description": "React components for projects made by StormLand - private minecraft SMP",
-  "repository": "https://github.com/otomir23/stormland-ui",
+  "repository": "git://github.com/otomir23/stormland-ui.git",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "author": "otomir23",
