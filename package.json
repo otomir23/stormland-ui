@@ -1,0 +1,41 @@
+{
+  "name": "@otomir23/stormland-ui",
+  "version": "1.0.0",
+  "description": "React components for projects made by StormLand - private minecraft SMP",
+  "repository": "https://github.com/otomir23/stormland-ui",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "author": "otomir23",
+  "license": "ISC",
+  "scripts": {
+    "rollup": "rollup -c",
+    "publish": "yarn npm publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.9",
+    "next": "^12.1.6",
+    "postcss": "^8.4.14",
+    "rollup": "^2.74.1",
+    "rollup-plugin-dts": "^4.2.1",
+    "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "tslib": "^2.4.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "packageManager": "yarn@3.2.1"
+}
